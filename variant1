@@ -1,0 +1,12 @@
+>>> lst=[1, [2, 3], 4, [[6, 7]]]
+>>> k=[2, 3]
+>>> v=[6, 7]
+>>> u=[v]
+>>> lst.remove(k)
+>>> lst.remove(u)
+>>> lst.extend(k)
+>>> lst.extend(v)
+>>> lst.sort()
+>>> lst
+[1, 2, 3, 4, 6, 7]
+>>>
